@@ -1,0 +1,80 @@
+root { 
+   
+}
+body{
+	font-family:calibri;
+}
+.header{
+    width: 960px;
+    margin-top: 0px;
+}
+.header .main-menu {
+    display: block;
+    margin: 50px 0 0 70px;
+	position:absolute;
+	
+}
+.header .main-menu a{
+   background-color: #00AFEF;
+   padding: 0px 5px 0px 5px;
+   padding-bottom: 0px;
+   color: white;
+   margin-left:5px;
+   text-decoration:none;
+   vertical-align: middle;
+   height:20px;
+   font-family:calibri;
+}
+.header .main-menu #main-last{
+	border-top-right-radius:8px;
+}
+.header #logo{
+	padding-top:0px;
+	margin-top:10px;
+	position: absolute;
+}
+.header .main-menu a:hover{
+    background-color: orange;
+}
+.title{
+    background-color: orange;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 2px 5px 0px 5px;
+    color: white;
+    font-size: 18px;
+}
+.content{
+    width:960px;
+    padding: 120px 0 20px 0;
+}
+form #input-text {
+    border:1px orange solid;
+    border-radius: 8px;
+    width:250px;
+    height: 25px;
+    padding-left: 5px;
+}
+form #input-submit {
+    border:1px orange solid;
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration:none;
+    color: black;
+}
+form  label{
+}
+form .message{
+    background-color: #00CC33;
+    color: white;
+    padding: 3px;
+    border:1px black solid;
+    border-radius: 8px;
+    text-align: center;
+}
+.footer{
+    width:960px;
+    height: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
