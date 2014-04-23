@@ -5,6 +5,7 @@
         <title>Gae Hotel</title>
         <link href='style/style.css' rel="stylesheet" type="text/css">
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<link rel="stylesheet" href="jquery-ui-1.10.4.custom/development-bundle/themes/base/jquery.ui.all.css">
 		<script src="jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
 		<script src="jquery-ui-1.10.4.custom/development-bundle/ui/jquery.ui.core.js"></script>
@@ -118,6 +119,8 @@
 		</script>
 =======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
     </head>
     <body>
         <table align="center">
@@ -128,7 +131,11 @@
                         <div class="main-menu">
                               <a href="room.php">Rooms</a> <a href="#">Contact Us</a> <a href="#">About Us</a> 
 <<<<<<< HEAD
+<<<<<<< HEAD
                              <?php if(!isset($_COOKIE['u_mail'])){ ?>
+=======
+                             <?php if(!isset($_COOKIE['u_mail'])){?>
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 =======
                              <?php if(!isset($_COOKIE['u_mail'])){?>
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
@@ -140,6 +147,7 @@
                              <a href="account.php">Accounts</a> 
                              <?php } ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 							 <?php
 								$booking = new Booking();
 								$user_bookings = $booking->get_user_bookings($_COOKIE['u_mail'],'pending');
@@ -148,6 +156,10 @@
                              <a href="dashboard.php">Dashboard</a> <a href="bookings.php" id='cart'>Cart:<?php echo $_SESSION['item']; ?></a> <a href="bookings.php?checkout" id='cart'>Invoices</a>   <a href="index.php?q=logout" id="main-last">Log Out</a>
                              <?php } ?>
 							 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='text' placeholder='Search rooms' id='input-text' value='' class='search-text' style='width:150px'> <a  id='input-submit' class='search' style='background-color:white;'>Search</a>
+=======
+                             <a href="dashboard.php">Dashboard</a>  <a href="index.php?q=logout" id="main-last">Log Out</a>
+                             <?php } ?>
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 =======
                              <a href="dashboard.php">Dashboard</a>  <a href="index.php?q=logout" id="main-last">Log Out</a>
                              <?php } ?>

@@ -1,5 +1,6 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /*
  * To change this template, choose Tools | Templates
@@ -11,6 +12,8 @@ include 'class/session.class.php';
 include 'class/booking.class.php';
 $user = new User();
 =======
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 include 'class/user/user.class.php';
 include 'class/dbconn.class.php';
 include 'class/session.class.php';
@@ -27,6 +30,9 @@ if(isset($_POST['save'])){
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
+<<<<<<< HEAD
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 if(!isset($_GET['logged']) && !isset($_GET['edit']) && !isset($_POST['save']) ){
     $user->isUserLoged();
@@ -35,7 +41,11 @@ if(!isset($_GET['logged']) && !isset($_GET['edit']) && !isset($_POST['save']) ){
 <?php include 'include/header.php' ?>
 <?php include 'include/page/dashboard.php'; ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php include 'include/footer.php';?>
+=======
+<?php include 'include/footer.php';?>
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 =======
 <?php include 'include/footer.php';?>
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85

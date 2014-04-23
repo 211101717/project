@@ -1,5 +1,6 @@
 -- phpMyAdmin SQL Dump
 <<<<<<< HEAD
+<<<<<<< HEAD
 -- version 3.3.9
 -- http://www.phpmyadmin.net
 --
@@ -10,6 +11,8 @@
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 =======
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 -- version 4.0.9
 -- http://www.phpmyadmin.net
 --
@@ -20,6 +23,9 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
+<<<<<<< HEAD
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 
 
@@ -35,6 +41,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+<<<<<<< HEAD
 <<<<<<< HEAD
 -- Table structure for table `booking`
 --
@@ -85,6 +92,8 @@ INSERT INTO `invoice` (`invoice_no`, `u_mail`, `date`, `amount_due`, `amount_pai
 --
 =======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 -- Table structure for table `room`
 --
 
@@ -104,7 +113,13 @@ CREATE TABLE IF NOT EXISTS `room` (
 
 INSERT INTO `room` (`room_no`, `room_type`, `room_capacity`, `room_rate`, `room_pic`, `room_feat`) VALUES
 <<<<<<< HEAD
+<<<<<<< HEAD
 (1, 'Deluxe', 'King', 570, '2.jpg', 'dstv,shower,double bed,bar fridge');
+=======
+(1, 'Deluxe', 'King', '570', '2.jpg', 'dstv,shower,double bed,bar fridge'),
+(20, 'Standard', 'Single', '300', '20.png', 'double bed'),
+(60, 'Deluxe', 'King', '600', '60.png', 'tv');
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 =======
 (1, 'Deluxe', 'King', '570', '2.jpg', 'dstv,shower,double bed,bar fridge'),
 (20, 'Standard', 'Single', '300', '20.png', 'double bed'),
@@ -135,10 +150,13 @@ CREATE TABLE IF NOT EXISTS `user` (
 INSERT INTO `user` (`u_mail`, `u_pass`, `u_type`, `u_lname`, `u_fname`, `u_id`, `reg`) VALUES
 ('', '', 'visitor', '', '', NULL, 'pending'),
 <<<<<<< HEAD
+<<<<<<< HEAD
 ('admin@gae.co.za', '5f4dcc3b5aa765d61d8327deb882cf99', 'admin', 'Renkie', 'Moswane', NULL, 'complete'),
 ('mrtrmello@yahoo.com', 'a16a93e4e72608e6c23878a79d37b121', 'visitor', 'Raymond', 'Mello', NULL, 'complete'),
 ('thabo@mail.com', '82d0ec7f8878e83d4c80669b708ad286', 'visitor', 'Thabo', 'Mello', NULL, 'complete');
 =======
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 ('admin@gae.co.za', '123456', 'admin', 'Sda', 'Dasd', NULL, 'complete'),
 ('mashego@yahoo.com', 'mello', 'visitor', 'Thabisos', 'Mashego', NULL, 'complete'),
 ('mrtmello@yahoo.com', '123456', 'visitor', 'Mello', 'Raymond', NULL, 'complete'),
@@ -147,4 +165,7 @@ INSERT INTO `user` (`u_mail`, `u_pass`, `u_type`, `u_lname`, `u_fname`, `u_id`, 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+<<<<<<< HEAD
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85

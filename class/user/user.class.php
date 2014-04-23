@@ -12,18 +12,25 @@
 class User {
     //put your code here
 <<<<<<< HEAD
+<<<<<<< HEAD
     var $u_mail;
     var $u_pass;
 =======
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
     var $u_id;
     var $u_mail;
     var $u_pass;
     var $u_role;
+<<<<<<< HEAD
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
     var $u_fname;
     var $u_lname;
     public function register($u_mail, $u_pass, $u_fname, $u_lname){
         $db = new Database();
+<<<<<<< HEAD
 <<<<<<< HEAD
 		$pass = md5($u_pass);
         $query = "insert into user values('$u_mail', '$pass', 'visitor','$u_lname','$u_fname',null,'complete')";
@@ -41,15 +48,23 @@ class User {
         if(!$this->isUserNameTaken($u_mail)){
             $db->execute($query);
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
+        $query = "insert into user values('$u_mail', '$u_pass', 'visitor','$u_lname','$u_fname',null,'complete')";
+        if(!$this->isUserNameTaken($u_mail)){
+            $db->execute($query);
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
         }
         else{
             throw new Exception("The e-mail you entered has been registered by another user");
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
     public function login($u_mail, $u_pass){
 	   $u_pass = md5($u_pass);
 =======
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
         if(mysql_affected_rows() > 0){
             $this->login($u_mail, $u_pass);
             return mysql_affected_rows();
@@ -67,6 +82,9 @@ class User {
        }
     }
     public function login($u_mail, $u_pass){
+<<<<<<< HEAD
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
        $query = "select * from user where u_mail = '$u_mail' and u_pass ='$u_pass' and reg = 'complete'";
        $db = new Database();
@@ -115,6 +133,7 @@ class User {
        }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function requestPass($u_mail){
         if(!$this->isUserNameTaken($u_mail)){
             throw new Exception("The e-mail you entered is not registered with Kali's Pub & Lodge");
@@ -139,6 +158,8 @@ class User {
     }
 =======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
     private function isUserNameTaken($u_mail){
        $query = "select u_mail from user where u_mail = '$u_mail'";
        $db = new Database();
@@ -151,6 +172,7 @@ class User {
        }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     private function get_user($u_mail){
        $query = "select * from user where u_mail = '$u_mail'";
        $db_man = new DBMan();
@@ -159,6 +181,8 @@ class User {
            return $user;
        }
     }
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 =======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 }

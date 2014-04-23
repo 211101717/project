@@ -8,7 +8,10 @@ include 'class/room.class.php';
 include 'class/dbconn.class.php';
 include 'class/upload.class.php';
 <<<<<<< HEAD
+<<<<<<< HEAD
 include 'class/booking.class.php';
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 =======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 ?>

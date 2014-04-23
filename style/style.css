@@ -49,7 +49,11 @@ body{
     padding: 120px 0 20px 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 form #input-text,#input-text {
+=======
+form #input-text {
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 =======
 form #input-text {
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
@@ -60,7 +64,11 @@ form #input-text {
     padding-left: 5px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 form #input-submit, #input-submit {
+=======
+form #input-submit {
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 =======
 form #input-submit {
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
@@ -70,16 +78,22 @@ form #input-submit {
     text-decoration:none;
     color: black;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	cursor:pointer
 }
 form  label{
 }
 form .message, .message{
 =======
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 }
 form  label{
 }
 form .message{
+<<<<<<< HEAD
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
     background-color: #00CC33;
     color: white;
@@ -88,8 +102,11 @@ form .message{
     border-radius: 8px;
     text-align: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin:10px 0 0 0;
 	max-width: 350px !important;
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 =======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 }

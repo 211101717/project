@@ -12,9 +12,14 @@
  */
 ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <b class="title" >Rooms</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <?php
 try{
+=======
+<b class="title">Rooms</b>
+<?php
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 =======
 <b class="title">Rooms</b>
 <?php
@@ -26,6 +31,7 @@ try{
         if(isset($_GET['delete'])){
             $room->deleteRoom($_GET['delete']);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 	if(!isset($_GET['search'])){
 		$rooms = $room->getRooms();
@@ -44,12 +50,17 @@ try{
 		echo "<tr title='".$room['room_no']."' onMouseOver='setRoom(".$room['room_no'].")'><td valign='top'>";
 		echo "<img src='img/room/".$room['room_type']."/".$room['room_pic']."' height='150px' width='200px' style='margin-top:5px'>";
 =======
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 	$rooms = $room->getRooms();
 	echo "<form method='get' action='".$_SERVER['PHP_SELF']."'><table style='margin-top:15px' >";
 	while($room = mysql_fetch_array($rooms)){
 		if(!isset($_GET['edit'])){
 		echo "<tr><td>";
 		echo "<img src='img/room/".$room['room_type']."/".$room['room_pic']."' height='150px' width='200px'>";
+<<<<<<< HEAD
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 		echo "</td><td valign='top' style='padding-left:10px'>";
 		echo "<b>Room no:</b> ".$room['room_no']."<br/>";
@@ -71,6 +82,7 @@ try{
 			$i++;
 		}
 		echo "<p>";
+<<<<<<< HEAD
 <<<<<<< HEAD
 		if(isset($_COOKIE['u_mail'])){
 			if($_COOKIE['u_role'] != 'admin'){
@@ -94,10 +106,16 @@ try{
 		if(isset($_COOKIE['u_mail']) && $_COOKIE['u_role'] == 'admin'){
 			echo " <a href='?edit=".$room['room_no']."' id='input-submit'>Edit</a>";
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
+		echo "<a href='#' id='input-submit'>Book</a>";
+		if(isset($_COOKIE['u_mail']) && $_COOKIE['u_role'] == 'admin'){
+			echo " <a href='?edit=".$room['room_no']."' id='input-submit'>Edit</a>";
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
             echo " <a href='?delete=".$room['room_no']."' id='input-submit'>Delete</a>";
 		}
 		echo "</p></td></tr>";
 		}else{
+<<<<<<< HEAD
 <<<<<<< HEAD
 			echo "<tr><td>";
 			echo "<input type='hidden' name='room_no' value='".$room['room_no']."'>";
@@ -117,6 +135,8 @@ try{
 		echo "<div class='message'>".$ex->getMessage()."</div>";
 	}
 =======
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 		    if( $_GET['edit'] == $room['room_no']){
 				echo "<tr><td>";
 				echo "<input type='hidden' name='room_no' value='".$room['room_no']."'>";
@@ -132,6 +152,9 @@ try{
 		}
 	}
 	echo "</table></form>";
+<<<<<<< HEAD
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 	function selectTypes($type){
 		$types = array("Deluxe","Superior","Standard");

@@ -9,7 +9,10 @@ class Session{
         $_SESSION['u_role'] = $user['u_type'];
         $_SESSION['id'] = $user['id'];
 <<<<<<< HEAD
+<<<<<<< HEAD
  
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 =======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
         setcookie('u_mail',$_SESSION['u_mail']);
@@ -19,6 +22,7 @@ class Session{
         setcookie('u_role',$_SESSION['u_role']);
         setcookie('id',$_SESSION['id']);
    }
+<<<<<<< HEAD
 <<<<<<< HEAD
    function set_session_buyer($u_mail){
        if(isset ($u_mail)){
@@ -32,10 +36,13 @@ class Session{
    }
 =======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
    function  unset_session_user()
    {
        unset ($_SESSION['u_mail']);
        setcookie('u_mail','',time()-3600);
+<<<<<<< HEAD
 <<<<<<< HEAD
        session_destroy();
    }
@@ -56,6 +63,8 @@ class Session{
            $amnt = $amnt + ($c['I_PRICE'] * $c['C_QTY']);
        }
        return $amnt;
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 =======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
    }

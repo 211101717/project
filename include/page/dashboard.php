@@ -22,6 +22,7 @@
                 <p><b>Password:</b> <input id="input-text" type="password" placeholder="Enter your password" required="" name="password" value='' style="width:255px"></></p>
                 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if(isset($_POST['save'])){
                     try{
                         $user = new User();
@@ -30,6 +31,8 @@
                         echo "<div class='message'>".$ex->getMessage()."</div>";
                     }
                 }
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 =======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
                 ?>

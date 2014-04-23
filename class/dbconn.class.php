@@ -14,6 +14,7 @@ class Database{
     }
     function selectDatabse(){
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if($this->establishConnection()){
 			return mysql_selectdb($this->database, $this->establishConnection());
 		}else{
@@ -28,12 +29,17 @@ class Database{
 			throw new Exception("Oops! Could not access ".$this->database.". Try again later.");
 		}
 =======
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
         mysql_selectdb($this->database, $this->establishConnection());
     }
     function execute($query){
         $this->selectDatabse();
         $results=mysql_query($query);  
         return $results;
+<<<<<<< HEAD
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
     }
 }

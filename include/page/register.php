@@ -12,6 +12,7 @@ $user = new User()
     <tr>
         <td align='left'>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<?php
 				echo $_SESSION['err'];
 			?>
@@ -21,6 +22,8 @@ $user = new User()
 			<p><label>Password:</label><br/><input id="input-text" type="password" placeholder="Password" required="" name="password"></></p>
 			<p><label>Confirm Password:</label><br/><input id="input-text" type="password" placeholder="Confirm password" required="" name="cpassword"></p>
 =======
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
                 <p><label>Last Name:</label><br/><input id="input-text" type="text" placeholder="Last name" required="" name="lname" value="<?php if(isset($_POST['register'])){echo $_POST['lname']; } ?>"></p>
                 <p><label>First Name:</label><br/><input id="input-text" type="text" placeholder="First name" required="" name="fname" value="<?php if(isset($_POST['register'])){echo $_POST['fname']; } ?>"></></p>
                 <p><label>E-mail:</label><br/><input id="input-text" type="email" placeholder="E-mail or Username" required="" name ="email" value="<?php if(isset($_POST['register'])){echo $_POST['email']; } ?>"></></p>
@@ -28,6 +31,9 @@ $user = new User()
                 <p><label>Confirm Password:</label><br/><input id="input-text" type="password" placeholder="Confirm password" required="" name="cpassword"></p>
                 <?php 
                 ?>
+<<<<<<< HEAD
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
         </td>
     </tr>

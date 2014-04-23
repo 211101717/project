@@ -1,5 +1,6 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /*
  * To change this template, choose Tools | Templates
@@ -21,6 +22,8 @@ if(isset($_POST['register'])){
 		 $_SESSION['err'] = "<div class='message'>".$ex->getMessage()."</div>";
 	}
 =======
+=======
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 include 'class/dbconn.class.php';
 include 'class/user/user.class.php';
 include 'class/session.class.php';
@@ -39,6 +42,9 @@ $user = new User();
  */
 if(isset($_COOKIE['u_mail'])){
     $user->isUserLoged();
+<<<<<<< HEAD
+>>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
+=======
 >>>>>>> 652aa883a77e0b97622748a0f5e3be2bd93bac85
 }
 ?>
