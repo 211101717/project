@@ -1,0 +1,134 @@
+root { 
+   
+}
+body{
+	font-family:calibri;
+}
+a{
+	text-decoration:none;
+}
+#delete{
+	max-width:20px !important;
+	max-height:20px !important;
+	cursor:pointer;
+}
+#cart-icon{
+	max-width:40px !important;
+	max-height:height:40px !important;
+}
+#shopping-cart{
+	position:absolute;
+	background:transparent url('../img/shopping-cart-256.png') no-repeat;
+	margin: 0px 0 0 924px;
+	height:48px;
+	width:44px;
+	text-align:center;
+	padding:10px 0 0 7px;
+}
+#shopping-cart a{
+	background-color:orange;
+	color:black;
+	border-radius:5px;
+	font-size:16px;
+	font-weight:bold;
+}
+a img{
+	border:none;
+}
+.header{
+    width: 960px;
+    margin-top: 0px;
+}
+.header .main-menu {
+    display: block;
+    margin: 46px 0 0 70px;
+	position:absolute;
+}
+.header .main-menu a{
+   background-color: #00AFEF;
+   padding: 0px 5px 0px 5px;
+   padding-bottom: 0px;
+   color: white;
+   margin-left:5px;
+   text-decoration:none;
+   vertical-align: middle;
+   height:20px;
+   font-family:calibri;
+}
+.header .main-menu #main-last{
+	border-top-right-radius:8px;
+}
+.header #logo{
+	padding-top:0px;
+	margin-top:10px;
+	position: absolute;
+}
+.header .main-menu a:hover{
+    background-color: orange;
+}
+#search-area{
+	border:1px orange solid;
+    border-radius: 8px;
+    width:250px;
+    height: 25px;
+	vertical-align:middle;
+	text-align:left;
+	padding-left:2px;
+}
+#search-area .search-text{
+	width:162px;
+	border:none;
+	background-color:none;
+	height:23px;
+	background:none;
+}
+#search-area .search-button{
+	background-color:white;
+	padding-top:2px;
+	vertical-align:middle;
+}
+.title{
+    background-color: orange;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 2px 5px 0px 5px;
+    color: white;
+    font-size: 18px;
+}
+.content{
+    width:960px;
+    padding: 120px 0 20px 0;
+}
+form #input-text,#input-text {
+    border:1px orange solid;
+    border-radius: 8px;
+    width:250px;
+    height: 25px;
+    padding-left: 5px;
+}
+form #input-submit, #input-submit {
+    border:1px orange solid;
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration:none;
+    color: black;
+	cursor:pointer
+}
+form  label{
+}
+form .message, .message{
+    background-color: #00CC33;
+    color: white;
+    padding: 3px;
+    border:1px black solid;
+    border-radius: 8px;
+    text-align: left;
+	margin:10px 0 0 0;
+	max-width: 350px !important;
+}
+.footer{
+    width:960px;
+    height: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
